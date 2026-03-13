@@ -170,6 +170,29 @@
   margin-top: 3rem;
 }
 
+.middle-content .service-info {
+  margin-top: 3rem;
+}
+
+.middle-content .service-info h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.middle-content .service-info ul {
+  text-align: center;
+  justify-content: center;
+}
+
+.middle-content .service-info li {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+}
+
 /* Contacts page */
 #contacts {
   border: 2px solid var(--color-Light);
@@ -216,6 +239,10 @@
     font-size: 20px;
     font-weight: 300; */
     padding: 0 30rem;
+  }
+
+  .middle-content .service-info li {
+    padding: 0.5rem 15rem;
   }
 
   .portfolio-cards {
@@ -270,6 +297,11 @@
   }
 
   .middle-content .about-info p {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  .middle-content .service-info li {
     font-size: 16px;
     padding: 0 1rem;
   }
