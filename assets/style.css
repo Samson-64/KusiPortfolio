@@ -33,10 +33,6 @@
   text-align: center;
 }
 
-.nav-bar .home-link .brand-last-name {
-  color: var(--color-secondary);
-}
-
 .nav-bar .nav-menu {
   margin: 2rem 0;
   display: flex;
@@ -211,7 +207,7 @@
 .timeline-card {
   padding: 1.6rem 1.75rem;
   border: 1px solid rgba(136, 136, 136, 0.25);
-  /* border-radius: 1.25rem; */
+  border-radius: 1.25rem;
   background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
   box-shadow: 0 16px 32px rgba(62, 62, 62, 0.08);
 }
@@ -340,7 +336,7 @@
   min-height: 210px;
   padding: 1.75rem;
   border: 1px solid rgba(136, 136, 136, 0.22);
-  /* border-radius: 1.25rem; */
+  border-radius: 1.25rem;
   background: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
   box-shadow: 0 16px 32px rgba(62, 62, 62, 0.08);
   display: flex;
