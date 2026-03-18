@@ -62,7 +62,7 @@
   max-width: 980px;
   overflow: hidden;
   background: linear-gradient(135deg, #f6f6f6 0%, #ffffff 100%);
-  box-shadow: 0 24px 50px rgba(62, 62, 62, 0.12);
+  /* box-shadow: 0 24px 50px rgba(62, 62, 62, 0.12); */
 }
 
 .hero-image-frame img {
@@ -207,7 +207,7 @@
 .timeline-card {
   padding: 1.6rem 1.75rem;
   border: 1px solid rgba(136, 136, 136, 0.25);
-  border-radius: 1.25rem;
+  /* border-radius: 1.25rem; */
   background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
   box-shadow: 0 16px 32px rgba(62, 62, 62, 0.08);
 }
@@ -273,15 +273,24 @@
 
 .middle-content .about-info {
   margin-top: 3rem;
+  width: 89%;
 }
 
 .middle-content .about-info p {
-  text-align: center;
-  justify-content: center;
+  /* text-align: center;
+  justify-content: center; */
+  text-align: justify;
+  text-justify: inter-word;
   font-size: 20px;
   font-weight: 300;
   padding: 0 1rem;
 }
+
+/* .middle-content .about-info p:last-child {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+} */
 
 .middle-content .about-info p:nth-child(2),
 .middle-content .about-info p:nth-child(3) {
@@ -323,7 +332,7 @@
   min-height: 210px;
   padding: 1.75rem;
   border: 1px solid rgba(136, 136, 136, 0.22);
-  border-radius: 1.25rem;
+  /* border-radius: 1.25rem; */
   background: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%);
   box-shadow: 0 16px 32px rgba(62, 62, 62, 0.08);
   display: flex;
