@@ -123,6 +123,12 @@
   font-weight: 260;
   color: var(--color-secondary);
   padding: 2px;
+  text-align: center;
+}
+
+.footer-break {
+  display: inline;
+  margin-left: 0.3rem;
 }
 
 /* Projects page */
@@ -280,7 +286,7 @@
 
 .middle-content .about-info p:nth-child(2),
 .middle-content .about-info p:nth-child(3) {
-  margin-top: 3rem;
+  margin-top: 0.9rem;
 }
 
 .middle-content .service-info {
@@ -501,6 +507,22 @@
 
   .hero-image-frame img {
     height: min(58vh, 520px);
+  }
+}
+
+@media (max-width: 767px) {
+  .footer .foot-note {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+  }
+
+  .footer-break {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
   }
 }
 
