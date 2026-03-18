@@ -286,6 +286,10 @@
   padding: 0 1rem;
 }
 
+.middle-content .about-info p b {
+  margin-left: 36%;
+}
+
 /* .middle-content .about-info p:last-child {
   text-align: center;
   font-weight: 500;
